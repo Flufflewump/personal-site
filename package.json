@@ -1,0 +1,11 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Flufflewump's personal website",
+  "main": "index.js",
+
+  "author": "Flufflewump",
+  "license": "MPL-2.0",
+
+  "homepage": "flufflewump.com"
+}
