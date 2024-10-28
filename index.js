@@ -7,13 +7,15 @@ const port = process.env.PORT || 3000
 
 const app = express();
 
-app.use(favicon(__dirname + '/public/images/favicon.ico'))
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 
-app.use(express.static('public'))
+app.use(express.static('public'));
+
+
 
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.join(__dirname, '/html/index.html'));
 });
 
 app.listen(port, function() {
