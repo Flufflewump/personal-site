@@ -18,6 +18,10 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, '/html/index.html'));
 });
 
+app.get("/game", function(req, res) {
+    res.sendFile(path.join(__dirname, '/html/game.html'));
+});
+
 app.listen(port, function() {
     console.log(`Listening on port ${port}`);
 });
