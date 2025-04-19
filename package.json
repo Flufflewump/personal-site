@@ -8,6 +8,7 @@
   "homepage": "flufflewump.com",
   "dependencies": {
     "express": "^4.21.1",
-    "express-favicon": "^2.0.4"
+    "express-favicon": "^2.0.4",
+    "nodemon": "^3.1.9"
   }
 }
